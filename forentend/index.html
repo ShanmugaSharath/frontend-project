@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+            Gifts and Design photos
+        </title>
+ <link rel="stylesheet" href="style.css">
+ <meta name="viewport" content="width =device-width,initial-scal=1"
+ 
+    </head>
+    <body class="products">
+        <section id="banner">
+        <img src="logo.png" class="logo">
+            <div class="banner-text">
+                <h1 class="intro"style="font-family: Arial,Helvetica, sans-serif;">EXTREME</h1>
+                <p>SPORTS EQUIPMENTS & ACCESSORIES</p>
+                <div class="banner-btn"> 
+                    <a href="http://127.0.0.1:5501/images.html">Products & Items</a>
+                    <a href="http://127.0.0.1:5501/imagerotate.html">#trending NEWS</a>
+            
+        </div>
+            </div>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">HELPS</a></li>
+                    <li><a href="#">SIGN IN</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menubtn">
+            <img src="menu.png" id="menu">
+        </div>
+    </section>
+        
+        
+         <script>
+        var menubtn= document.getElementById("menubtn")
+        var sideNav= document.getElementById("sideNav")
+        var menu= document.getElementById("menu")
+        menubtn.onclick = function()
+            {
+                if(sideNav.style.right == "-250px")
+                {
+                    sideNav.style.right = "0";
+                }
+                else
+                {
+                    sideNav.style.right = "-250px"
+                }
+            }
+           
+        </script>
+        
+    </body>
+</html>
